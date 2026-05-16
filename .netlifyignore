@@ -1,0 +1,13 @@
+.env
+.env.local
+.env*.local
+.git
+.next
+.next-prod
+.npm-cache
+node_modules
+out
+dist
+coverage
+*.log
+.DS_Store
