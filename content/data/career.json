@@ -1,0 +1,35 @@
+[
+  {
+    "company": "Studio Atlas",
+    "role": "Frontend Engineer",
+    "stage": "Portfolio review",
+    "status": "interviewing",
+    "updatedAt": "2026-05-14",
+    "notes": {
+      "zh": "准备展示项目叙事、界面细节和性能优化过程。",
+      "en": "Preparing the project narrative, interface details, and performance optimization story."
+    }
+  },
+  {
+    "company": "Northstar AI",
+    "role": "AI Product Engineer",
+    "stage": "Application sent",
+    "status": "applied",
+    "updatedAt": "2026-05-11",
+    "notes": {
+      "zh": "已投递，下一步整理相关 AI 工具项目案例。",
+      "en": "Application submitted. Next step is organizing relevant AI tooling case studies."
+    }
+  },
+  {
+    "company": "Open Systems Lab",
+    "role": "Research Engineer",
+    "stage": "Role research",
+    "status": "researching",
+    "updatedAt": "2026-05-08",
+    "notes": {
+      "zh": "正在阅读团队论文和开源项目，判断匹配度。",
+      "en": "Reading the team's papers and open-source projects to evaluate fit."
+    }
+  }
+]

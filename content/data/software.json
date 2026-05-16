@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Signal Desk",
+    "summary": {
+      "zh": "一个把学习、研究和任务进度汇聚到同一屏的个人工作台原型。",
+      "en": "A personal workspace prototype that brings learning, research, and task progress into one display."
+    },
+    "status": "building",
+    "techStack": ["Next.js", "TypeScript", "Local-first"],
+    "links": [{ "label": "Demo", "href": "#" }]
+  },
+  {
+    "name": "Paper Pulse",
+    "summary": {
+      "zh": "用于记录论文阅读、摘要、问题和写作里程碑的小工具。",
+      "en": "A small tool for tracking paper reading, summaries, questions, and writing milestones."
+    },
+    "status": "prototype",
+    "techStack": ["React", "Markdown", "Data Viz"],
+    "links": [{ "label": "Repository", "href": "#" }]
+  },
+  {
+    "name": "Career Radar",
+    "summary": {
+      "zh": "把岗位投递、面试阶段和反馈信息整理成可扫描的状态板。",
+      "en": "A scannable status board for applications, interview stages, and feedback."
+    },
+    "status": "released",
+    "techStack": ["TypeScript", "Automation", "CSV"],
+    "links": [{ "label": "Notes", "href": "#" }]
+  }
+]

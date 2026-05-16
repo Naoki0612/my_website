@@ -1,0 +1,30 @@
+[
+  {
+    "title": {
+      "zh": "面向个人知识工作流的 AI 辅助界面研究",
+      "en": "AI-assisted Interfaces for Personal Knowledge Workflows"
+    },
+    "stage": "Literature review",
+    "progress": 42,
+    "updatedAt": "2026-05-13",
+    "milestones": [
+      { "zh": "完成 18 篇核心论文阅读", "en": "Finished reading 18 core papers" },
+      { "zh": "整理初版研究问题", "en": "Drafted the first research questions" },
+      { "zh": "下一步：定义实验任务", "en": "Next: define experiment tasks" }
+    ]
+  },
+  {
+    "title": {
+      "zh": "开发者工具中的上下文保持机制",
+      "en": "Context Persistence Mechanisms in Developer Tools"
+    },
+    "stage": "Outline",
+    "progress": 27,
+    "updatedAt": "2026-05-10",
+    "milestones": [
+      { "zh": "确定章节结构", "en": "Defined chapter structure" },
+      { "zh": "收集竞品案例", "en": "Collected product references" },
+      { "zh": "下一步：补充方法论", "en": "Next: add methodology" }
+    ]
+  }
+]
