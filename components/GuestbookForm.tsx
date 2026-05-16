@@ -51,14 +51,14 @@ export function GuestbookForm({ copy }: { copy: GuestbookCopy }) {
   }
 
   return (
-    <section className="mt-16 grid gap-6 lg:grid-cols-[0.82fr_1.18fr]">
-      <div className="max-w-xl">
+    <article className="cyber-panel neon-border rounded-lg p-5">
+      <div>
         <p className="font-mono text-xs uppercase tracking-[0.26em] text-cyanNeon">{copy.eyebrow}</p>
-        <h2 className="cyber-title mt-4 text-4xl font-black leading-tight text-white">{copy.title}</h2>
-        <p className="mt-5 text-base leading-8 text-slate-300">{copy.lead}</p>
+        <h2 className="cyber-title mt-3 text-3xl font-black leading-tight text-white">{copy.title}</h2>
+        <p className="mt-4 text-sm leading-7 text-slate-300">{copy.lead}</p>
       </div>
 
-      <form onSubmit={handleSubmit} className="cyber-panel neon-border rounded-lg p-5">
+      <form onSubmit={handleSubmit} className="mt-5">
         <div className="grid gap-4 sm:grid-cols-2">
           <label className="grid gap-2 text-sm font-semibold text-cyan-50">
             {copy.nickname}
@@ -104,6 +104,6 @@ export function GuestbookForm({ copy }: { copy: GuestbookCopy }) {
           ) : null}
         </div>
       </form>
-    </section>
+    </article>
   );
 }

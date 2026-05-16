@@ -368,6 +368,16 @@ a {
   position: relative;
 }
 
+.hello-title {
+  min-height: 1.05em;
+  overflow-wrap: anywhere;
+  font-size: 4.25rem;
+}
+
+.news-headline {
+  overflow-wrap: anywhere;
+}
+
 .glitch-text::before,
 .glitch-text::after {
   position: absolute;
@@ -600,5 +610,27 @@ a {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
+  }
+}
+
+@media (min-width: 640px) {
+  .hello-title {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hello-title {
+    font-size: 7.5rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .hello-title {
+    font-size: 3.35rem;
+  }
+
+  .local-news-panel {
+    padding: 1.25rem;
   }
 }

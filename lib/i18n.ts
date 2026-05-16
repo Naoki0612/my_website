@@ -21,8 +21,8 @@ export const dictionary = {
       home: "首页",
       blog: "博客",
       software: "软件",
-      career: "求职进度",
-      papers: "论文进度",
+      career: "求职",
+      papers: "论文",
       about: "关于"
     },
     common: {
@@ -38,11 +38,11 @@ export const dictionary = {
     },
     home: {
       eyebrow: "NAOKI / PERSONAL OPERATING SYSTEM",
-      title: "把研究、软件和职业轨迹接入同一个控制台。",
-      intro: "这里收录我的博客、自制软件、求职进度和论文进度。界面像一块持续刷新的赛博仪表盘，内容则保持可维护、可替换、可长期生长。",
+      title: "你好！",
+      intro: "楽しまずして何の人生ぞや。",
       primaryCta: "查看软件",
       secondaryCta: "阅读博客",
-      snapshot: "当前快照",
+      snapshot: "当地热点",
       profile: "个人协议",
       profileBody: "我关注 AI 工具、系统设计、研究写作和把想法做成可用产品。这个网站会作为公开日志，记录从概念到交付的过程。",
       contact: "个人信息 / 联系方式",
@@ -51,13 +51,16 @@ export const dictionary = {
       telegram: "Telegram 快速聊天",
       blog: "最新博客",
       software: "自制软件",
-      career: "求职进度",
-      papers: "论文进度"
+      career: "求职",
+      papers: "论文",
+      newsFallbackLocation: "当地",
+      newsLoading: "正在读取热点新闻",
+      newsEmpty: "暂时没有读取到当地热点新闻"
     },
     guestbook: {
       eyebrow: "GUESTBOOK / 留言入口",
       title: "给我留一句话。",
-      lead: "填写昵称、联系方式和留言后，内容会由网站后端写入 Supabase 数据库，方便我之后统一查看和回复。",
+      lead: "感谢留言，我会及时与您联系！",
       nickname: "昵称",
       contact: "联系方式",
       message: "留言",
@@ -115,12 +118,15 @@ export const dictionary = {
       blog: "Latest Blog",
       software: "Software",
       career: "Career Progress",
-      papers: "Paper Progress"
+      papers: "Paper Progress",
+      newsFallbackLocation: "Local",
+      newsLoading: "Loading local headlines",
+      newsEmpty: "No local headlines are available yet"
     },
     guestbook: {
       eyebrow: "GUESTBOOK / MESSAGE CHANNEL",
       title: "Leave me a note.",
-      lead: "Your nickname, contact detail, and message are sent to the backend first, then stored in Supabase through a PostgreSQL session pool.",
+      lead: "Thanks for leaving a note. I will get back to you soon.",
       nickname: "Nickname",
       contact: "Contact",
       message: "Message",

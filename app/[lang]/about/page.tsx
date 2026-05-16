@@ -44,7 +44,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: Lo
             ))}
           </div>
           <div className="mt-8 border-t border-cyan-300/10 pt-6 font-mono text-sm text-slate-400">
-            Email: hello@example.com / GitHub: github.com/example / X: @example
+            Email: ysbnaoki@gmail.com / Telegram: @naoki0612
           </div>
         </CyberCard>
       </div>
